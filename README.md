@@ -1,8 +1,8 @@
 
 
-#echo "# Github-Sandbox" >> README.md
+# echo "# Github-Sandbox" >> README.md
 
-#…or create a new repository on the command line
+# …or create a new repository on the command line
 
 git init
 git add README.md
@@ -12,7 +12,7 @@ git remote add origin git@github.com:sirawit-suk/Github-Sandbox.git
 git push -u origin main
 
 
-#…or push an existing repository from the command line
+# …or push an existing repository from the command line
 git remote add origin git@github.com:sirawit-suk/Github-Sandbox.git
 git branch -M main
 git push -u origin main
