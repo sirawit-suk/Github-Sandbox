@@ -1,29 +1,29 @@
-# Smart Refrigerator MK I
+## create a new repository
+echo "# Github-Sandbox" >> README.md
 
-## Introduction
-This project is created at Embedded System Laboratory, KMITL. This refrigerator allows you to open it with your fingerprint.
+-git init
+-git add README.md
+-git commit -m "first commit"
+- git branch -m main
+- git remote add origin git@github.com:sirawit-suk/Github-Sandbox.git
+- git push -u origin main
 
-## วิธีการใช้ระบบแสกนลายนิ้วมือ
-- นำนิ้วมือ(ที่ลงทะเบียน) แตะบนเซนเซอร์ เพื่อตรวจจับลายนิ้วมือ
-- รอ 1-3 วินาที เพื่อรอโปรแกรมประมวลผล
-2.1.หากสำเร็จ แม่เหล็กจะปลดล็อกเป็นเวลา 4 วินาที
-2.2.หากไม่สำเร็จ ให้ลองนำนิ้วมือ แตะบนเซนเซอร์อีกครั้ง
-2.3.หากยังไม่สำเร็จ หรือมีปัญหาอื่นๆ สามารถติดต่อผู้ดูแลระบบได้ 
+## …or push an existing repository
+- git remote add origin git@github.com:sirawit-suk/Github-Sandbox.git
+- git branch -M main
+- git push -u origin main
 
-## ข้อควรระวัง
-1.	ห้าม กระชากประตู หากประตูยังล็อกอยู่ (ประตูอาจพังได้)
-2.	ห้าม เปิดดูแผงวงจรด้านในกล่องดำก่อนได้รับอนุญาต
-3.	ห้าม ทำให้กล่องดำเปียกน้ำหรือมีความชื้น เพราะอาจทำให้รัดวงจร
+## keep tracking
+- git status
+- git config --global --list
+- git config --list
+- git branch
+- git remote 
+- git remote -v
+- git branch --remote
 
-## การตั้งค่า
-1.	หากมีผู้ใดที่ต้องการใช้งานเพิ่มเติม ติดต่อผู้ดูแลระบบเพื่อขอรับ ID แสกนนิ้วได้เลย
-2.	เข้าสู่หน้า Admin โดยเริ่มจากกด ปุ่ม A และกรอกรหัสผ่านเข้าสู่ระบบ
-3.	ปุ่ม * เป็นปุ่มยกเลิก / ปุ่ม # เป็นปุ่มตกลง / ปุ่ม B เป็นปุ่มลบตัวอักษร
-4.	หน้า Admin มีการทำงานหลักอยู่ 3 ฟังก์ชัน (1. Add  2. Delete 3. Unlock)
-5.	หากมีปัญหาระบบรวน หรือปัญหาอื่นๆ ลอง Reset ระบบโดยการกดปิดสวิตช์แล้วเปิดใหม่อีกรอบ 
-	หากยังไม่สามารถทำได้ สามารถติดต่อผู้ดูแลระบบได้เลยครับ 
+## normal work flow
+- git add .
+- git commit -m "test"
+- git push -u origin main // git push upstream <remote-alias> <branch-name>
 
-## Future improvements
-1. Implement this using other board that can connect with internet.
-2. Add camera module
-3. Other cool stuffs
