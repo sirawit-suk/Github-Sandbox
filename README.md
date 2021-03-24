@@ -37,7 +37,9 @@ echo "# Github-Sandbox" >> README.md
 - git merge --no-ff < small branch > // for keep history of that branch
 
 - git branch -d < branch-name-to-delete >
+- git push origin -d < branch-remote-name-to-delete >
 
 - [link-git-hub-th](https://www.somkiat.cc/find-your-git-workflow/)
 - [link-git-hub-en](https://nvie.com/posts/a-successful-git-branching-model/)
 - [link-git-easy-read-th](https://medium.com/@pakin/git-คืออะไร-git-is-your-friend-c609c5f8efea)
+
