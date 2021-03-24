@@ -47,4 +47,4 @@ one more time
 one more more
 
 xxx
-pull main -> edit newww
+don't delete local newww branch -> pull main -> edit newww [not work !!!]
