@@ -27,8 +27,6 @@ echo "# Github-Sandbox" >> README.md
 - git commit -m "test"
 - git push -u origin main // git push upstream < remote-alias > < branch-name >
 
-
-newnewnew
 ## advance work flow colaboration
 - git checkout -b < new-branch-name > // for created new branch and switch
 - git checkout < branch-name >
@@ -40,8 +38,5 @@ newnewnew
 
 - git branch -d < branch-name-to-delete >
 
-xx
-asdasdas
-adsdasd
-asdasdad
-asdasdad
+[link-git-hub-th](https://www.somkiat.cc/find-your-git-workflow/)
+[link-git-hub-en](https://nvie.com/posts/a-successful-git-branching-model/)
