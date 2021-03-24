@@ -52,3 +52,5 @@ don't delete local newww branch -> pull main -> edit newww [not work !!!]
 delete local newww branch -> force to pull main -> checkout -b new branch -> edit [I think it's work !!!]
 
 try good branch <- rebase <- main 
+
+this is feat 1 
