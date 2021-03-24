@@ -54,3 +54,5 @@ delete local newww branch -> force to pull main -> checkout -b new branch -> edi
 try good branch <- rebase <- main 
 
 this is feat 1 
+
+this is feat 2 /1
