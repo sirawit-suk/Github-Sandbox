@@ -43,4 +43,3 @@ echo "# Github-Sandbox" >> README.md
 - [link-git-hub-en](https://nvie.com/posts/a-successful-git-branching-model/)
 - [link-git-easy-read-th](https://medium.com/@pakin/git-คืออะไร-git-is-your-friend-c609c5f8efea)
 
-xxx
