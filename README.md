@@ -48,3 +48,5 @@ one more more
 
 xxx
 don't delete local newww branch -> pull main -> edit newww [not work !!!]
+
+delete local newww branch -> force to pull main -> checkout -b new branch -> edit [I think it's work !!!]
