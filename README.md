@@ -38,5 +38,5 @@ echo "# Github-Sandbox" >> README.md
 
 - git branch -d < branch-name-to-delete >
 
-[link-git-hub-th](https://www.somkiat.cc/find-your-git-workflow/)
-[link-git-hub-en](https://nvie.com/posts/a-successful-git-branching-model/)
+- [link-git-hub-th](https://www.somkiat.cc/find-your-git-workflow/)
+- [link-git-hub-en](https://nvie.com/posts/a-successful-git-branching-model/)
